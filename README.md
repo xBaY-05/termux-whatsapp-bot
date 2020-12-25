@@ -115,6 +115,7 @@ Terakhir scan kode QR
 | Tebak gambar|✅|
 | Family 100|✅|
 | Truth or dare|✅|
+| Kerang ajaib (apakah, bolehkah, kapan)|✅|
 
 
 | DOWNLOAD |Yes|
