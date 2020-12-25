@@ -101,7 +101,84 @@ axios.get(`https://arugaz.herokuapp.com/api/howbucins`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text, { quoted: m } );
 })
 }
+//kerang ajaib
+if (text.includes('.Apakah')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .apakah aku cantik_',MessageType.text, {quoted: m});
+}
+if (text.includes('.Bolehkah')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .bolehkah aku mencintai dia_',MessageType.text, {quoted: m});
+}
+if (text.includes('.Kapan')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .kapan aku kaya_',MessageType.text, {quoted: m});
+}
+if (text.includes('.apakah')){
+const teks = text.replace(/./, '')
+const truth =[
+'Iya',
+'Tidak',
+'Bisa Jadi',
+'Coba tanyakan lagi',
+'Mungkin',
+'']
+const ttrth = truth[Math.floor(Math.random() * truth.length)]
+conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
+}
 
+if (text.includes('.bolehkah')){
+const teks = text.replace(/./, '')
+const truth =[
+'Boleh',
+'Tidak boleh',
+'Sangat di anjurkan',
+'Coba tanyakan lagi',
+'Tidak',
+'Mungkin',
+'Jangan']
+const ttrth = truth[Math.floor(Math.random() * truth.length)]
+conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
+}
+
+
+if (text.includes('.kapan')){
+const teks = text.replace(/./, '')
+const truth =[
+'1 Hari lagi',
+'2 hari lagi',
+'3 hari lagi',
+'4 hari lagi',
+'5 hari lagi',
+'6 hari lagi',
+'1 minggu lagi',
+'2 minggu lagi',
+'3 minggu lagi',
+'1 bulan lagi',
+'2 bulan lagi',
+'3 hari lagi',
+'4 bulan lagi',
+'5 bulan lagi',
+'6 hari lagi',
+'7 bulan lagi',
+'8 bulan lagi',
+'9 hari lagi',
+'10 bulan lagi',
+'11 bulan lagi',
+'1 tahun lagi',
+'2 tahun lagi',
+'3 tahun lagi',
+'4 tahun lagi',
+'Tidak akan',
+'Yakin bakal terjadi ?',
+'Aku meragukan nya',
+'Lusa',
+'Akhir bulan depan',
+'Awal bulan depan',
+'Tahun depan',
+'Bulan depan',
+'Sebentar lagi',
+'']
+const ttrth = truth[Math.floor(Math.random() * truth.length)]
+conn.sendMessage(id, 'Pertanyaan : *'+teks+'*\n\nJawaban : '+ ttrth, MessageType.text, { quoted: m })
+}
   //Zodiak
 if (text.includes('.Zodiak')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
