@@ -84,14 +84,14 @@ Terakhir scan kode QR
 
 | SIMSIMI |Yes|
 | ------------- | ------------- |
-| Simsimi |✅|
+| Simsimi |❌|
 
 | FUN |Yes|
 | ------------- | ------------- |
 | Say|✅|
 | Nama ninja|✅|
-| Puisi|✅|
-| Cerpen|✅|
+| Puisi|❌|
+| Cerpen|❌|
 | Tagme|✅|
 | Seberapa gay|✅|
 | Seberapa bucin|✅|
@@ -128,7 +128,7 @@ Terakhir scan kode QR
 
 | TOOLS |Yes|
 | ------------- | ------------- |
-| Nulis|✅|
+| Nulis|❌|
 | Stiker|✅|
 | OCR|✅|
 | Instagram stalker|✅|
@@ -151,7 +151,7 @@ Terakhir scan kode QR
 | ------------- | ------------- |
 | Quotes maker|✅|
 | Logo pornhub|✅|
-| Logo e-sport|✅|
+| Logo e-sport|❌|
 
 | EDUKASI |Yes|
 | ------------- | ------------- |
@@ -171,9 +171,9 @@ Terakhir scan kode QR
 
 | Others |Yes|
 | ------------- | ------------- |
-| Jadwal tv|✅|
+| Jadwal tv|❌|
 | Jadwal tv (channel)|✅|
-| Jadwal sholat|✅|
+| Jadwal sholat|❌|
 | Info Covid|✅|
 | Info anime|✅|
 | Lirik lagu|✅|
