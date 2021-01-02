@@ -192,7 +192,7 @@ Terakhir scan kode QR
 ## Contacts
 * [Instagram](https://www.instagram.com/mrf.zvx/)
 * [Facebook](https://www.facebook.com/profile.php?id=100028409167054)
-* My whatsapp bot [Arel Bot](https://wa.me/6282223014661)
+* My whatsapp bot [Arel Bot](https://wa.me/6281219700198)
 
 
 ## Terimakasih untuk
